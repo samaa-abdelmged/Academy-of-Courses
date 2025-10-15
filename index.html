@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>موقع الكورسات المحسن</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">لوجو الموقع</div>
+    <nav id="nav-menu">
+      <a href="#home">الرئيسية</a>
+      <a href="#about">من نحن</a>
+      <a href="#courses">الكورسات</a>
+      <a href="#contact">اتصل بنا</a>
+    </nav>
+    <div class="hamburger" id="hamburger" aria-label="Toggle menu">☰</div>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <div class="home-content">
+      <h1 class="hero-title">مرحبًا بكم في موقع الكورسات</h1>
+      <p class="hero-text">اكتشف كورساتنا التعليمية عبر الإنترنت وطور مهاراتك بسهولة.</p>
+      <a href="#courses" class="btn">استعراض الكورسات</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>من نحن</h2>
+    <p>موقع الكورسات يقدم مجموعة متنوعة من الدورات التعليمية في مجالات متعددة. هدفنا هو تسهيل التعلم للجميع وجعل التجربة
+      التعليمية ممتعة وفعالة.</p>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="courses" class="courses">
+    <h2>الكورسات</h2>
+    <div class="course-container">
+      <div class="course-card">
+        <div class="course-img-wrapper">
+          <img src="imgs/web_development.jpg" alt="تطوير الويب">
+        </div>
+        <h3>تطوير الويب</h3>
+        <p>تعلم بناء مواقع حديثة باستخدام HTML وCSS وJavaScript.</p>
+        <button class="btn">سجل الآن</button>
+      </div>
+      <div class="course-card">
+        <div class="course-img-wrapper">
+          <img src="imgs/Graphic-designing.jpg" alt="التصميم الجرافيكي">
+        </div>
+        <h3>التصميم الجرافيكي</h3>
+        <p>تعلم أساسيات التصميم واستخدام الألوان والخطوط لإنشاء تصاميم رائعة.</p>
+        <button class="btn">سجل الآن</button>
+      </div>
+      <div class="course-card">
+        <div class="course-img-wrapper">
+          <img src="imgs/DIGITAL_MARKETING.webp" alt="التسويق الرقمي">
+        </div>
+        <h3>التسويق الرقمي</h3>
+        <p>طور مهاراتك في التسويق عبر الإنترنت وتحسين ظهورك على الشبكات الاجتماعية.</p>
+        <button class="btn">سجل الآن</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>اتصل بنا</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="اسمك" required>
+      <input type="email" id="email" placeholder="بريدك الإلكتروني" required>
+      <textarea id="message" placeholder="رسالتك" required></textarea>
+      <button type="submit" class="btn">إرسال</button>
+      <p id="form-message" class="form-message"></p>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 موقع الكورسات. جميع الحقوق محفوظة.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
