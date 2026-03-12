@@ -1,7 +1,7 @@
 # Courses Website – Frontend (HTML, CSS, Sass, JavaScript ES6+)
 
 A modern and responsive **Courses Website** built using **HTML, CSS, Sass (SCSS), and modern JavaScript (ES6+)**.
-The website showcases educational courses online and provides an interactive learning experience with smooth animations, responsive design, and user-friendly interface.
+The website showcases educational courses online and provides an interactive learning experience with smooth animations, responsive design, and a user-friendly interface.
 
 This project emphasizes **clean UI design, responsive layouts, modern frontend techniques, and interactive functionality**.
 
@@ -145,10 +145,8 @@ courses-website
 
 | Field    | Details                                                     |
 | -------- | ----------------------------------------------------------- |
-| Name     | Samaa Abdelmged                                             |
-| Role     | Full Stack .Net Web Developer                               |
-| Location | Egypt                                                       |
-| Email    | [samaaabdelmged@gmail.com](mailto:samaaabdelmged@gmail.com) |
+| Name     | Samaa Abdelmged Roshdy                                      |
+| Role     | Full Stack .NET Web Developer                               |
+| Location | Egypt, Cairo                                                |
+| Email    | samaaabdelmged@gmail.com                                    |
 | LinkedIn | linkedin.com/in/samaa-abdelmged                             |
-
----
